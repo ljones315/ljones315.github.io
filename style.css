@@ -45,6 +45,10 @@ nav a {
   margin: 0 10px;
   color: #003566;
 }
+nav a:hover {
+  color: #808080;
+  cursor: pointer;
+}
 .banner-area{
   width: 100%;
   height: 10000px;
@@ -80,19 +84,19 @@ nav a {
   top: 450px;
 }
 #content2 {
-  top: 750px;
+  top: 550px;
 }
 #content3 {
-  top: 1050px;
+  top: 650px;
 }
 #content4 {
-  top: 1350px;
+  top: 750px;
 }
 #content5 {
-  top: 1650px;
+  top: 850px;
 }
 .footer {
-  top: 1950px;
+  top: 950px;
 }
 
 .content-area h2 {
