@@ -3,12 +3,12 @@ var name = "Liam Jones";
 var soFar = "";
 
 function typeWriter() {
-  if (i <= name.length) {
-    soFar = name.substring(0, i);
+  if (i > 4 && i <= name.length + 5) {
+    soFar = name.substring(0, i - 5);
     document.getElementById("name").innerHTML = soFar + "_";
-    i++;
-    setTimeout(typeWriter, 150);
   }
+  i++;
+  setTimeout(typeWriter, 150);
 }
 
 const links = document.querySelectorAll(".scroll_to");
