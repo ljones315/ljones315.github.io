@@ -11,21 +11,33 @@ function typeWriter() {
   setTimeout(typeWriter, 150);
 }
 
-const links = document.querySelectorAll(".scroll_to");
-
-links.forEach((item)=>{
-  item.addEventListener("click", ()=>{
-    const element = document.getElementById(item.getAttribute("data-link"));
-    element.scrollIntoView({behavior:"smooth", block:"center"})
-  })
-})
-
-const links1 = document.querySelectorAll(".scroll_to_end");
+const links1 = document.querySelectorAll(".scroll_to_top");
 
 links1.forEach((item)=>{
   item.addEventListener("click", ()=>{
     const element = document.getElementById(item.getAttribute("data-link"));
+    const yOffset = -70;
+    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    window.scrollTo({top: y, behavior: 'smooth'});
+  })
+})
+
+
+const links2 = document.querySelectorAll(".scroll_to_end");
+
+links2.forEach((item)=>{
+  item.addEventListener("click", ()=>{
+    const element = document.getElementById(item.getAttribute("data-link"));
     element.scrollIntoView({behavior:"smooth", block:"end"})
+  })
+})
+
+const links3 = document.querySelectorAll(".scroll_to_center");
+
+links3.forEach((item)=>{
+  item.addEventListener("click", ()=>{
+    const element = document.getElementById(item.getAttribute("data-link"));
+    element.scrollIntoView({behavior:"smooth", block:"center"})
   })
 })
 
