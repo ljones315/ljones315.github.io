@@ -20,6 +20,17 @@ links.forEach((item)=>{
   })
 })
 
+const links1 = document.querySelectorAll(".scroll_to_end");
+
+links1.forEach((item)=>{
+  item.addEventListener("click", ()=>{
+    const element = document.getElementById(item.getAttribute("data-link"));
+    element.scrollIntoView({behavior:"smooth", block:"end"})
+  })
+})
+
+
+
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
