@@ -8,21 +8,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="images/favicon.png"/>
   <script src="https://kit.fontawesome.com/6791cb47b9.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
 </head>
 <body onload="typeWriter()">
   <div class="box-area">
     <header>
       <div class="wrapper">
         <div class="logo">
-          <a href="#index"><img style="vertical-align:middle" src="images/logo2.png"></a>
+          <a id="backToTop" href="#" onclick="topFunction();return false;"><img style="vertical-align:middle" src="images/logo2.png"></a>
         </div>
         <nav>
           <a data-link="about" class="scroll_to">About</a>
           <a data-link="education" class="scroll_to">Education</a>
           <a data-link="courses" class="scroll_to">Courses</a>
           <a data-link="skills" class="scroll_to">Skills</a>
-          <a data-link="about" class="scroll_to">Contact</a>
+          <a data-link="socialMedia" class="scroll_to">Contact</a>
         </nav>
       </div>
     </header>
@@ -35,9 +34,8 @@
         <img src="images/Liam.jpg" id="me">
         <p>Hello! My name is Liam Jones. I'm a second year CS student at the
         Georgia Institute of Technology, interested in software engineering and
-        ALL related fields. Use this site to get to know me, and reach out through
-        the links below!</p>
-        <a href="https://www.linkedin.com/in/ljones315/" target="blank"><i class="fab fa-linkedin"></i></a>
+        ALL related fields. Use this site to get to know me, and reach out through the links below!</p>
+        <a href="https://www.linkedin.com/in/ljones315/" target="blank" id="socialMedia"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.instagram.com/liamj21/" target="blank"><i class="fab fa-instagram"></i></a>
         <a href="mailto: ltjones2002@gmail.com" target="blank"><i class="fas fa-envelope-square"></i></a>
       </div>
@@ -133,5 +131,6 @@
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
