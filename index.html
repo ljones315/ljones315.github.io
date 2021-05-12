@@ -15,7 +15,7 @@
     <header>
       <div class="wrapper">
         <div class="logo">
-          <a id="backToTop" href="#" onclick="topFunction();return false;"><img style="vertical-align:middle" src="images/logo2.png"></a>
+          <a id="backToTop" href="#" onclick="topFunction();return false;"><img style="vertical-align:middle" src="images/logo2.png" alt=""></a>
         </div>
         <nav>
           <a data-link="about" class="scroll_to_top">About</a>
@@ -32,7 +32,7 @@
     <div class="content-area" id="content1">
       <div class="wrapper" id="about">
         <h2>About Me</h2>
-        <img src="images/Liam.jpg" id="me">
+        <img src="images/Liam.jpg" id="me" alt="">
         <p>Hello! My name is Liam Jones. I'm a second year CS student at the
         Georgia Institute of Technology in Atlanta, Georgia. My interests include software engineering and web design, but I love learning about any/all other related fields. Use this site to get to know me, and reach out through the links below!</p>
         <a href="https://www.linkedin.com/in/ljones315/" target="blank" id="contact"><i class="fab fa-linkedin"></i></a>
@@ -43,7 +43,7 @@
     <div class="content-area" id="content2">
       <div class="wrapper" id="education">
         <h2>Education</h2>
-        <img src="images/Tech.jpg" id="Tech">
+        <img src="images/Tech.jpg" id="Tech" alt="">
         <div class="schools">
           <table id="schools">
             <tr>
@@ -51,8 +51,8 @@
               <th>Whitewater High School</th>
             </tr>
             <tr>
-              <td id="location">Atlanta, Georgia</td>
-              <td id="location">Fayetteville, Georgia</td>
+              <td class="location">Atlanta, Georgia</td>
+              <td class="location">Fayetteville, Georgia</td>
             </tr>
             <tr>
               <td>Bachelor of Science in Computer Science</td>
@@ -74,29 +74,41 @@
       </div>
     </div>
     <div class="content-area" id="content3">
-      <div class="wrapper" id="courses">
+      <div class="wrapper">
         <h2>Courses</h2>
-        <table class="courses">
+        <table id="courses">
           <tr>
-            <td><b>CS 1331</b>: Object Oriented Programming</td>
-            <td><b>CS 1332</b>: Data Structures and Algorithms</td>
+            <th>CS 1331</th>
+            <th>CS 1332</th>
+
           </tr>
           <tr>
-            <td><b>CS 2050</b>: Discrete Mathematics</td>
-            <td><b>MATH 1554</b>: Linear Algebra</td>
+            <td>Object Oriented Programming</td>
+            <td>Data Structures/Algorithms</td>
           </tr>
           <tr>
-            <td><b>CS 2110</b>: Computer Organization and Programming
-              (In Progress)</td>
-            <td><b>CS 2340</b>: Objects and Design (In Progress)</td>
+            <th>CS 2050</th>
+            <th>CS 2110</th>
+          </tr>
+          <tr>
+            <td>Discrete Mathematics</td>
+            <td>Computer Organization/Programming</td>
+          </tr>
+          <tr>
+            <th>CS 2340</th>
+            <th>MATH 1554</th>
+          </tr>
+          <tr>
+            <td>Objects and Design</td>
+            <td>Linear Algebra</td>
           </tr>
         </table>
       </div>
     </div>
     <div class="content-area" id="content4">
-      <div class="wrapper" id="skills">
+      <div class="wrapper">
         <h2>Skills</h2>
-        <table id="skills">
+        <table  id="skills">
           <tr>
             <th>Programming</th>
             <th>Tools/Technologies</th>
