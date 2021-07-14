@@ -133,6 +133,7 @@ nav a:hover {
 }
 #experience li {
   padding-bottom: 1%;
+  font-size: 1.25vw;
 }
 
 #flexy {
@@ -152,11 +153,11 @@ nav a:hover {
 }
 #schools th, #courses th, #skills th {
   font-weight: 600;
-  font-size: 1.5vw;
+  font-size: 1.75vw;
   text-align: center;
 }
 #schools td, #courses td, #skills td {
-  font-size: 1vw;
+  font-size: 1.25vw;
   font-weight: 200;
   text-align: center;
 }
