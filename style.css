@@ -122,7 +122,10 @@ nav a:hover {
   width: 40%;
   align-content: center;
   flex: 1;
-  padding: 0 5%;
+  padding: 0% 5%;
+  border: solid #003566;
+  border-radius: 2vw;
+  margin: 1vw;
 }
 #experience ul {
   text-decoration: none;
