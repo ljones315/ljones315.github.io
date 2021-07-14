@@ -23,12 +23,12 @@ header {
   position: fixed;
 }
 .logo {
-  width: 30%;
+  width: 10%;
   float: left;
   line-height: 100px;
 }
 .logo img {
-  width: 25%;
+  width: 100%;
 }
 nav {
   float: right;
